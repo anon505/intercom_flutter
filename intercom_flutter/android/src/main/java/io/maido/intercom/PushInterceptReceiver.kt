@@ -24,7 +24,7 @@ class PushInterceptReceiver : BroadcastReceiver() {
 
         if (intercomPushClient.isIntercomPush(message)) {
             Log.d(TAG, "Intercom message received")
-              intercomPushClient.handlePush(application, message)
+              //intercomPushClient.handlePush(application, message)
         } else {
             Log.d(TAG, "Push message received, not for Intercom")
         }
