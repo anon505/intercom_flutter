@@ -10,3 +10,4 @@ build/
 android/bin/
 example/.flutter-plugins-dependencies
 example/ios/Flutter/flutter_export_environment.sh
+.fvm/flutter_sdk
